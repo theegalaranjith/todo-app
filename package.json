@@ -1,0 +1,61 @@
+{
+  "name": "todo-app",
+  "version": "2.0.3",
+  "description": "todo-app using with react and redux",
+  "scripts": {
+    "test": "react-scripts test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test-coverage": "react-scripts test --coverage && codecov"
+  },
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.25",
+    "@fortawesome/free-solid-svg-icons": "5.11.2",
+    "@fortawesome/react-fontawesome": "0.1.5",
+    "bootswatch": "4.4.1",
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-beautiful-dnd": "11.0.5",
+    "react-dom": "16.12.0",
+    "react-redux": "7.1.3",
+    "react-scripts": "3.3.0",
+    "reduce-reducers": "1.0.4",
+    "redux": "4.0.5",
+    "uuid": "3.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.4.0",
+    "codecov": "3.6.1",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "husky": "3.1.0",
+    "jest-dom": "3.5.0",
+    "jest-localstorage-mock": "2.4.0",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1",
+    "react-beautiful-dnd-test-utils": "2.0.0",
+    "react-test-renderer": "16.12.0",
+    "redux-mock-store": "1.5.4",
+    "stylelint": "12.0.1",
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-declaration-use-variable": "1.7.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
